@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>RAJATON祭</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Noto+Sans+JP:wght@300;500&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+margin:0;
+font-family:"Noto Sans JP",sans-serif;
+color:#0b2a40;
+background:linear-gradient(#eaf6ff,#d8f0ff,#cfe9ff);
+}
+
+/* HERO */
+
+.hero{
+height:80vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:
+linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.9)),
+url("https://images.unsplash.com/photo-1483664852095-d6cc6870702d");
+background-size:cover;
+background-position:center;
+}
+
+.title{
+font-family:"Playfair Display",serif;
+font-size:6vw;
+letter-spacing:0.1em;
+color:#0a3d62;
+}
+
+.subtitle{
+margin-top:20px;
+font-size:1.2rem;
+}
+
+.date{
+margin-top:0px;
+letter-spacing:0.1em;
+}
+
+/* BUTTONS */
+
+.buttons{
+margin-top:80px;
+display:flex;
+gap:30px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.button{
+padding:12px 30px;
+border:2px solid #0a3d62;
+color:#0a3d62;
+text-decoration:none;
+transition:0.3s;
+}
+
+.button:hover{
+background:#0a3d62;
+color:white;
+}
+
+/* SECTION */
+
+section{
+padding:100px 10%;
+max-width:1000px;
+margin:auto;
+}
+
+h2{
+font-family:"Playfair Display";
+font-size:2.5rem;
+color:#0a3d62;
+}
+
+.logo{
+width:600px;
+max-width:130%;
+height:auto;
+}
+
+.poster{
+width:800px;
+max-width:95%;
+height:auto;
+margin-top:40px;
+}
+
+.groups{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:40px;
+margin-top:40px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+footer{
+text-align:center;
+padding:40px;
+opacity:0.7;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+
+<div class="title">
+<img src="siteimg/Rajatonfes_logo.png" alt="Rajatonfes_logo" class="logo">
+</div>
+
+<div class="date">
+2026 / 03 / 12 <br>
+Start 15:00 <br>
+@学生集会所3F
+</div>
+
+<div class="buttons">
+
+<a class="button" href="bands.html">
+バンド紹介
+</a>
+
+<a class="button" href="setlist.html">
+セットリスト
+</a>
+
+</div>
+
+</div>
+
+<div style="text-align: center">
+
+<img src="siteimg/rajatonfes.png" alt="Rajatonfes" class="poster">
+
+</div>
+
+</div>
+
+<section>
+
+<h2>About RAJATON</h2>
+
+<p>
+1997年にシベリウス・アカデミーを拠点に結成されたフィンランドの男女6人組アカペラグループ。<br>
+ 「Rajaton（ラヤトン）」は 「Boundless（無限の、限界のない）」という意味で、そのバンド名が意味する通り、ジャズからクラシックな合唱や教会音楽、現代的なポップス、定番の名曲からオリジナルまで様々なジャンルをアカペラで歌いこなす。
+</p>
+
+<div style="text-align: center">
+
+<a href="https://www.youtube.com/channel/UC67rfRvn6bw-bChtOwMNeYA" target="_blank">
+<img src="siteimg/rajaton_photo.jpg" alt="rajaton_photo" width="800" height="300">
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<img src="siteimg/Rajatonfes_logo.png" alt="Rajatonfes_logo" width="800" height="200">
+
+</footer>
+
+</body>
+</html>
